@@ -30,10 +30,10 @@ def integer_calc():
     binary = raw_binary[2:]
     num_bits = len(binary)
 
-    answer = f"{integer} in binary is {binary}. We ned {num_bits} to represent it."
+    answer = f"{integer} in binary is {binary}. We need {num_bits} to represent it."
 
     return answer
 
 #main routine
-image_ans = integer_calc()
-print(image_ans)
+integer_ans = integer_calc()
+print(integer_ans)
